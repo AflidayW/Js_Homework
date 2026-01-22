@@ -13,9 +13,9 @@
 */
 
 function doubleEachCharacter(stroke) {
-    let new_stroke = "";
-    for(let i = 0; i < stroke.length;i++){
-        new_stroke = new_stroke + stroke[i]*2;
+    let new_stroke = ""; // переместите сюда
+    for (let i = 0; i < stroke.length; i++) {
+        new_stroke = new_stroke + stroke[i] + stroke[i];
     }
     return new_stroke
 }
